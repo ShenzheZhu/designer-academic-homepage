@@ -18,7 +18,8 @@ function setActiveLink(page) {
 async function loadPage(page) {
   lastLoadedPage = page;
   try {
-    const response = await fetch(`pages/${page}.html`);
+    const base = document.querySelector('base')?.href || new URL('.', location.href).href;
+    const response = await fetch(new URL(`pages/${page}.html`, base));
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const html = await response.text();
 
