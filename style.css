@@ -577,7 +577,7 @@ a:active {
     min-width: auto;
     height: 100vh;
     z-index: 300;
-    padding: 3rem 1rem 1rem;
+    padding: 3.8rem 1rem 1rem;
     background: var(--bg);
     overflow-y: auto;
     transform: translateY(-100%);
@@ -586,6 +586,10 @@ a:active {
 
   .sidebar.menu-open {
     transform: translateY(0);
+  }
+
+  body:has(.sidebar.menu-open) .mobile-header-name {
+    visibility: hidden;
   }
 
   .site-footer--sidebar {
