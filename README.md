@@ -2,7 +2,7 @@
 
 A minimal, Cargo-inspired academic homepage template. No frameworks, no build tools — just HTML, CSS, and vanilla JS.
 
-**[Live Demo](https://shenzhezhu.github.io)**
+**[Live Demo](https://shenzhezhu.github.io/designer-academic-homepage/)**
 
 ## Features
 
