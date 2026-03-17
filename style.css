@@ -509,7 +509,7 @@ a:active {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 200;
+    z-index: 400;
     padding: 0.1rem 1rem 0.4rem;
     background: var(--bg);
   }
