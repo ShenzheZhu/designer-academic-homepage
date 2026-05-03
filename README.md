@@ -1,4 +1,4 @@
-# Designer Academic Homepage
+# A Simple Academic Homepage
 
 A minimal, Cargo-inspired academic homepage template. No frameworks, no build tools — just HTML, CSS, and vanilla JS.
 
